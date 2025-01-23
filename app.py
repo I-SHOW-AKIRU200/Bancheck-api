@@ -5,7 +5,7 @@ from functools import wraps
 app = Flask(__name__)
 
 API_KEYS = {
-    "AKIRU": "1-MONTH-FRRE"
+    "AKIRU": "active"
 }
 
 def require_api_key(f):
